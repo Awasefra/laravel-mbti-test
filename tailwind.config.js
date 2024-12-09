@@ -15,6 +15,11 @@ export default {
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                navside: "#0c3350",
+                hover: "#3e79a7",
+                active: "#ffffff",
+            },
         },
     },
     plugins: [require("flowbite/plugin")],
